@@ -1,5 +1,3 @@
-/** @format */
-
 import EcommPhoto from '../public/ecomm.png';
 import CodePlayPhoto from '../public/codeplay.png';
 import LearnifyPhoto from '../public/learnify.png';

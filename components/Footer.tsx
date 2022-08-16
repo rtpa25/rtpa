@@ -1,5 +1,3 @@
-/** @format */
-
 import { FC } from 'react';
 import IconGitHub from './icons/Github';
 import IconLinkedin from './icons/Linkedin';

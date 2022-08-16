@@ -1,5 +1,3 @@
-/** @format */
-
 import { ProjectProps } from '../config/interfaces';
 import IconExternal from './icons/ExternalLink';
 import IconGitHub from './icons/Github';

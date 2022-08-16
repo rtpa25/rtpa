@@ -1,12 +1,10 @@
-/** @format */
-
 import { AiOutlineMenu } from 'react-icons/ai';
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
-import { useState } from 'react';
+import { FC, useState } from 'react';
 import { Link } from 'react-scroll';
 import MobileNavigator from './MobileNavigator';
 
-const Navbar = () => {
+const Navbar: FC = () => {
   const [vis, setVis] = useState<boolean>(false);
   return (
     <div className='flex justify-between mx-5 my-5 md:mx-40 '>

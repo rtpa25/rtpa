@@ -1,5 +1,3 @@
-/** @format */
-
 import { FC } from 'react';
 import useWidnowDimension from '../hooks/useWindowDimension';
 import IconGitHub from './icons/Github';

@@ -1,10 +1,7 @@
-/** @format */
+import { FC } from 'react';
+import { Element } from 'react-scroll';
 
-import Scroll from 'react-scroll';
-
-const Element = Scroll.Element;
-
-const Contact = () => {
+const Contact: FC = () => {
   return (
     <Element name='contact'>
       <div id='contact' className='mx-5 my-24 md:mx-40'>

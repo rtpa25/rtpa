@@ -1,20 +1,8 @@
-import axios from 'axios';
+import { FC } from 'react';
 import Lottie from 'react-lottie';
 import heroAnimation from '../public/heroAnimation.json';
 
-export const getStaticProps = async () => {
-  const { data } = await axios.get(
-    'https://embed.lottiefiles.com/animation/74635'
-  );
-
-  return {
-    props: {
-      data,
-    },
-  };
-};
-
-function Hero() {
+const Hero: FC = () => {
   return (
     <div className='flex mx-5 my-20 md:mx-40 ' id='hero'>
       <div className='flex flex-col items-start justify-between'>
@@ -64,6 +52,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

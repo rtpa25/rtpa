@@ -1,7 +1,5 @@
-/** @format */
-
 import { AiOutlineClose } from 'react-icons/ai';
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { scroller } from 'react-scroll';
 
@@ -10,7 +8,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
-const MobileNavigator: React.FC<ModalProps> = ({ show, onClose }) => {
+const MobileNavigator: FC<ModalProps> = ({ show, onClose }) => {
   const [isBrowser, setIsBrowser] = useState(false);
   useEffect(() => {
     setIsBrowser(true);

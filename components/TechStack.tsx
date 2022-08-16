@@ -1,5 +1,3 @@
-/** @format */
-
 import TechBox from './TechBox';
 import fsvg from '../public/frontend.svg';
 import bsvg from '../public/backend.svg';

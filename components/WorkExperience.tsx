@@ -1,10 +1,7 @@
 import { FC, useState } from 'react';
-
-import Scroll from 'react-scroll';
+import { Element } from 'react-scroll';
 import { OrgData } from '../config/interfaces';
 import { ORG_DATA } from '../config/orgData';
-
-const Element = Scroll.Element;
 
 const WorkExperience: FC = () => {
   const [selectedOrg, setSeletectedOrg] = useState<OrgData>(ORG_DATA[0]);
