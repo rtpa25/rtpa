@@ -6,7 +6,7 @@ export const ORG_DATA: OrgData[] = [
     name: 'SuperTokens',
     position: 'Software Engineer Intern',
     startDate: 'Jan 2022',
-    endDate: 'July 2022',
+    endDate: 'June 2022',
     website: 'https://supertokens.com',
     work: [
       {
