@@ -36,7 +36,7 @@ const MobileNavigator: FC<ModalProps> = ({ show, onClose }) => {
       onClick={handleClose}>
       <aside
         onClick={(e) => e.stopPropagation()}
-        className='absolute top-0 right-0 z-50 w-9/12 h-full transition-all duration-300 ease-in-out bg-gradient-to-r from-blue-500 to-blue-800'>
+        className='absolute top-0 right-0 z-50 w-9/12 h-screen transition-all duration-300 ease-in-out bg-gradient-to-r from-blue-500 to-blue-800'>
         <div>
           <AiOutlineClose
             className='absolute top-0 right-0 mx-4 my-4 text-white scale-150 cursor-pointer'
