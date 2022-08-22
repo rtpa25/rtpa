@@ -37,16 +37,6 @@ const Footer: FC = () => {
             </a>
           </div>
         </li>
-        <li>
-          <div className='socials-link'>
-            <a
-              href={'https://www.showwcase.com/rtpa25'}
-              target='_blank'
-              rel='noreferrer'>
-              <IconLinkedin />
-            </a>
-          </div>
-        </li>
       </ul>
       <p className='font-mono text-xl text-blue-700 cursor-pointer hover:text-cyan-600 duration-300 mb-10'>
         <a target='_blank' rel='noreferrer' href='https://github.com/rtpa25/rp'>
