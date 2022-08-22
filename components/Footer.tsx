@@ -39,7 +39,10 @@ const Footer: FC = () => {
         </li>
       </ul>
       <p className='font-mono text-xl text-blue-700 cursor-pointer hover:text-cyan-600 duration-300 mb-10'>
-        <a target='_blank' rel='noreferrer' href='https://github.com/rtpa25/rp'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href='https://github.com/rtpa25/rtpa'>
           Designed and Built by RP
         </a>
       </p>
