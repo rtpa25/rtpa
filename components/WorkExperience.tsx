@@ -8,15 +8,15 @@ const WorkExperience: FC = () => {
 
   return (
     <Element name='work'>
-      <div className='mx-5 my-60 md:mx-40 md:px-28'>
+      <div className='mx-5 my-60 md:mx-40 lg:px-20'>
         <h2 className='section-heading'>Places I have worked at</h2>
-        <div className='md:flex md:overflow-hidden md:my-20'>
-          <div className='flex justify-start overflow-x-auto my-4 md:flex-col md:justify-start md:overflow-hidden md:mr-4 md:w-1/4'>
+        <div className='lg:flex lg:my-20 lg:w-full'>
+          <div className='flex justify-start overflow-x-auto my-4 lg:flex-col lg:justify-start lg:overflow-hidden lg:mr-4 lg:w-2/5 xl:w-1/3'>
             {ORG_DATA.map((org) => {
               return (
                 <div
                   key={org.id}
-                  className={` font-mono text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 md:mr-20 md:my-3 md:w-full ${
+                  className={`font-mono text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 lg:my-3 lg:w-full ${
                     selectedOrg.id === org.id ? 'bg-gray-200' : ''
                   }`}
                   onClick={() => {
@@ -27,7 +27,7 @@ const WorkExperience: FC = () => {
               );
             })}
           </div>
-          <div className='org-work my-8'>
+          <div className='my-8'>
             <h3 className='font-semibold text-lg text-gray-700'>
               {selectedOrg.name}{' '}
               <a

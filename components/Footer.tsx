@@ -9,21 +9,40 @@ const Footer: FC = () => {
       <ul className='flex md:hidden'>
         <li>
           <div className='socials-link'>
-            <a href={''} target='_blank' rel='noreferrer'>
+            <a
+              href={'https://github.com/rtpa25'}
+              target='_blank'
+              rel='noreferrer'>
               <IconGitHub />
             </a>
           </div>
         </li>
         <li>
           <div className='socials-link'>
-            <a href={''} target='_blank' rel='noreferrer'>
+            <a
+              href={'https://twitter.com/panda_ronit'}
+              target='_blank'
+              rel='noreferrer'>
               <IconTwitter />
             </a>
           </div>
         </li>
         <li>
           <div className='socials-link'>
-            <a href={''} target='_blank' rel='noreferrer'>
+            <a
+              href={'https://www.linkedin.com/in/rtpa25/'}
+              target='_blank'
+              rel='noreferrer'>
+              <IconLinkedin />
+            </a>
+          </div>
+        </li>
+        <li>
+          <div className='socials-link'>
+            <a
+              href={'https://www.showwcase.com/rtpa25'}
+              target='_blank'
+              rel='noreferrer'>
               <IconLinkedin />
             </a>
           </div>

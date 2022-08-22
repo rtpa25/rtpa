@@ -3,6 +3,7 @@ import useWidnowDimension from '../hooks/useWindowDimension';
 import IconGitHub from './icons/Github';
 import IconLinkedin from './icons/Linkedin';
 import IconTwitter from './icons/Twitter';
+import IconShowwCase from './icons/ShowwCase';
 
 const Socials: FC = () => {
   const { width } = useWidnowDimension();

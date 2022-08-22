@@ -9,7 +9,7 @@ const OtherProjects: FC = () => {
     <Element name='others'>
       <div className='mx-5 my-60 md:mx-40'>
         <h2 className='section-heading'>Other Side Projects</h2>
-        <div className='project-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 my-20'>
+        <div className='project-grid grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3  gap-8 my-20'>
           {SIDE_PROJECTS_DATA.map((project) => {
             return (
               <div

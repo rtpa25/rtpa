@@ -17,7 +17,7 @@ const Projects: FC = () => {
             <h2 className='section-heading'>Some Stuff I’ve Recently Built</h2>
             <ul>
               {PROJECTS.map((project) => {
-                if (width > 850) {
+                if (width > 1300) {
                   return (
                     <li key={project.id}>
                       <Project
