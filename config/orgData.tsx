@@ -41,6 +41,11 @@ export const ORG_DATA: OrgData[] = [
     website: 'https://supertokens.com',
     work: [
       {
+        id: 0,
+        title:
+          'Ether is the startup that I tried to build in my freshman year of college, it is a platform that connects you with a like-minded college student based on your interests and preferences which basically automates your networking. Worked on that product for some time and further decided to drop it.',
+      },
+      {
         id: 1,
         title:
           'Extensively worked on the Mobile App built with Flutter and the backend server built with NodeJS including a Robust REST API and a chat server built with web-socket.',

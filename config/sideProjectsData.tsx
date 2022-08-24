@@ -44,7 +44,7 @@ export const SIDE_PROJECTS_DATA: SideProjectProps[] = [
     id: 4,
     title: 'Ether',
     description:
-      'Ether is the startup that I tried to build in my freshman of college, it is a platform that connects you with a like-minded college student based on your interests and preferences which basically automates your networking, we later pivoted to providing short educational content from all around the internet in an instagram reels like UI, worked on that product for a few months and further decided to drop it.',
+      'Ether is the startup that I tried to build in my freshman year of college, it is a platform that connects you with a like-minded college student based on your interests and preferences which basically automates your networking, we later pivoted to providing short educational content from all around the internet in an instagram reels like UI, worked on that product for some time and further decided to drop it.',
     repoLink: 'https://github.com/sinhadityaforever/Ether_Frontend',
     techStack: [
       { name: 'Flutter', id: 1 },
