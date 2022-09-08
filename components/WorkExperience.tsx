@@ -8,7 +8,7 @@ const WorkExperience: FC = () => {
 
   return (
     <Element name='work'>
-      <div className='mx-5 my-60 md:mx-40 lg:px-20'>
+      <div className='mx-5 my-60 md:mx-40'>
         <h2 className='section-heading'>Places I have worked at</h2>
         <div className='lg:flex lg:my-20 lg:w-full'>
           <div className='flex justify-start overflow-x-auto my-4 lg:flex-col lg:justify-start lg:overflow-hidden lg:mr-4 lg:w-2/5 xl:w-1/3'>
@@ -16,7 +16,7 @@ const WorkExperience: FC = () => {
               return (
                 <div
                   key={org.id}
-                  className={`font-mono text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 lg:my-3 lg:w-full ${
+                  className={`font-mono text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 lg:my-3 lg:max-w-full${
                     selectedOrg.id === org.id ? 'bg-gray-200' : ''
                   }`}
                   onClick={() => {

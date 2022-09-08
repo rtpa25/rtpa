@@ -14,6 +14,7 @@ import golangIcon from '../public/golang-1.svg';
 import dockerIcon from '../public/docker.svg';
 import digitalOceanIcon from '../public/digitalocean-2.svg';
 import nestjsIcon from '../public/nestjs.svg';
+import graphqlIcon from '../public/graphql.svg';
 
 export const FrontendTech: TechList[] = [
   {
@@ -30,10 +31,11 @@ export const FrontendTech: TechList[] = [
   },
   {
     id: 3,
-    techName: 'TailwindCSS',
-    icon: tailwindIcon,
-    proficiency: 'awesome',
+    techName: 'Graphql',
+    icon: graphqlIcon,
+    proficiency: 'good',
   },
+
   {
     id: 4,
     techName: 'Redux-Toolkit',
@@ -60,8 +62,8 @@ export const FrontendTech: TechList[] = [
   },
   {
     id: 8,
-    techName: 'Vercel',
-    icon: vercelIcon,
+    techName: 'TailwindCSS',
+    icon: tailwindIcon,
     proficiency: 'awesome',
   },
 ];
