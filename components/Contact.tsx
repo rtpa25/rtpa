@@ -13,7 +13,7 @@ const Contact: FC = () => {
           <p className='max-w-screen-md text-lg text-center text-blue-900/95 md:px-12'>
             I’m currently looking for an internship at a seed or series-A
             startup as a full-Stack Developer Intern and contribute to teams
-            that want to make a difference. Sounds up to your streak 👇
+            that want to make a difference. Does it ring a bell, 👇
           </p>
           <a
             href={`mailto:pandaronit25@gmail.com`}
