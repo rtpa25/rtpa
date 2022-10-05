@@ -3,14 +3,41 @@ import CodePlayPhoto from '../public/codeplay.png';
 import LearnifyPhoto from '../public/learnify.png';
 import FriendSpacePhoto from '../public/friendspace.png';
 import ZenNotePhoto from '../public/zenNote.png';
+import DevfolioPhoto from '../public/devfolio2.png';
 import { ProjectProps } from './interfaces';
 
 export const PROJECTS: ProjectProps[] = [
   {
     id: 1,
+    title: 'Devfolio',
+    description:
+      'Devfolio is a web app that allows developers to build there own portfolio and share it with the world. Without putting extra effort of designing and building a portfolio from scratch. I got the idea from my own experience of building my portfolio and realizing how time consuming it is and after getting the same feedback from most of my friends who are applying for internships, I wanted to build a portfolio generator that is easy to use and looks good. So I decided to build Devfolio & I am still working on making it more easy to use and adding more features.',
+    externalLink: 'https://devfolio.ronit.pro',
+    repoLink: 'https://github.com/rtpa25/portfolio-gen-web',
+    techStack: [
+      { id: 1, name: 'NextJS' },
+      { id: 2, name: 'ChakraUI' },
+      { id: 3, name: 'Apollo-Client' },
+      { id: 4, name: 'Redux-Toolkit' },
+      { id: 5, name: 'graphql-code-gen' },
+      { id: 6, name: 'TypeScript' },
+      { id: 7, name: 'MongoDB' },
+      { id: 9, name: 'ExpressJS' },
+      { id: 10, name: 'Apollo-server-express' },
+      { id: 11, name: 'TypeGraphQL' },
+      { id: 12, name: 'Redis' },
+      { id: 13, name: 'TypeGoose' },
+      { id: 14, name: 'Docker' },
+      { id: 15, name: 'Digital-Ocean' },
+      { id: 16, name: 'Vercel' },
+    ],
+    photo: DevfolioPhoto,
+  },
+  {
+    id: 2,
     title: 'Learnify',
     description:
-      'Learnify is a web app that converts distracting youtube playlist into an interactive udemy like course hence resulting in less distraction and increased productivity. Built with the help of YouTube API and is being loved by my friends at my university, some of the key features that students like is the note taking feature with timestamps, progress indicator and the fact that there are no form of distracting popups or non-educational videos.',
+      'Learnify is a web app that converts distracting youtube playlist into an interactive Udemy like course hence resulting in less distraction and increased productivity. Built with the help of YouTube API and is being loved by my friends at my university, some of the key features that students like is the note taking feature with timestamps, progress indicator and the fact that there are no form of distracting popups or non-educational videos.',
     techStack: [
       {
         id: 1,
@@ -62,7 +89,7 @@ export const PROJECTS: ProjectProps[] = [
     repoLink: 'https://github.com/rtpa25/learnify-client',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Code-Play',
     description:
       "A NPM package that let's you make coding cheat sheets and notebooks all from your browser. We don't store your data anywhere it's stored locally on your computer. Code bundling and transpiling on the browser makes code-play editors faster than any other editor on the web. CodePlay is a collection of 3 packages a CLI, A local-Client which is a single-page web app and A local-Server which is an express server which serves the client and stores the users code in the users machine",
@@ -113,7 +140,7 @@ export const PROJECTS: ProjectProps[] = [
     repoLink: 'https://github.com/rtpa25/code-play',
   },
   {
-    id: 3,
+    id: 4,
     title: 'FriendSpace',
     description:
       'A chat and call app for friends, chat with your friends, call them or make group calls, Sounds simple right though it had challenges when it came to the design and the features that were added. The chat service is custom build with socket.io, The entire auth service is custom built with JWT tokens stored in cookies, you can add friends send invitations and either accept or reject them you can create groups and all the users will be added to groups this is just used by people in my close circle to have fun',
@@ -168,7 +195,7 @@ export const PROJECTS: ProjectProps[] = [
     repoLink: 'https://github.com/rtpa25/friend-space',
   },
   {
-    id: 4,
+    id: 5,
     title: 'ZenNote',
     description:
       "Being a huge fan of the note taking app RemNote, I decided to create a mini zen version within a couple of days just for myself, I used tip tap as the core editor and built on top of it with a note taking feature and a todo list feature, Bullet points being the central theme and to top all this the editor is smarter than you think just hit <3 and see the magic it automatically infers the emoji and renders it on the screen I am still working on this project adding new features and improving the existing ones, It's just a fun little project which I want to limit for myself to take notes and keep the control over my own data",
@@ -223,7 +250,7 @@ export const PROJECTS: ProjectProps[] = [
     repoLink: 'https://github.com/rtpa25/remnote-client',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Nyka',
     description:
       "You are not a true self learned developer if you haven't ever built an e-commerce app this was my attempt with a different tech stack this time it has a minimal and beautiful UI and has all basic features you can think of in an e-commerce app from filtering products to adding them to cart and then checking out all packed up with a full blown auth service thanks to SuperTokens",

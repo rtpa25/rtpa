@@ -1,17 +1,17 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { Fade } from 'react-awesome-reveal';
 import {
-  Hero,
-  Navbar,
-  Projects,
-  TechStack,
   Contact,
   Footer,
-  Socials,
-  WorkExperience,
+  Hero,
+  Navbar,
   OtherProjects,
+  Projects,
+  Socials,
+  TechStack,
+  WorkExperience,
 } from '../components/z(exporter)';
-import { Fade } from 'react-awesome-reveal';
 
 const Home: NextPage = () => {
   return (

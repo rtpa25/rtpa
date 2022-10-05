@@ -8,15 +8,15 @@ const WorkExperience: FC = () => {
 
   return (
     <Element name='work'>
-      <div className='mx-5 my-60 md:mx-40'>
-        <h2 className='section-heading'>Places I have worked at</h2>
-        <div className='lg:flex lg:my-20 lg:w-full'>
-          <div className='flex justify-start overflow-x-auto my-4 lg:flex-col lg:justify-start lg:overflow-hidden lg:mr-4 lg:w-2/5 xl:w-1/3'>
+      <div className='px-5 my-60 md:mx-40'>
+        <h2 className='section-heading lg:px-10'>Places I have worked at</h2>
+        <div className='lg:flex lg:my-20 lg:w-full lg:px-10'>
+          <div className='flex justify-start lg:w-1/6 my-4 lg:flex-col lg:justify-start lg:overflow-hidden lg:mr-4'>
             {ORG_DATA.map((org) => {
               return (
                 <div
                   key={org.id}
-                  className={`font-mono text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 lg:my-3 lg:max-w-full${
+                  className={`font-mono w-full text-lg text-blue-700 cursor-pointer hover:bg-gray-100 p-2 rounded-md transition-all duration-150 hover:text-blue-900 lg:my-3 lg:max-w-full${
                     selectedOrg.id === org.id ? 'bg-gray-200' : ''
                   }`}
                   onClick={() => {
@@ -27,7 +27,7 @@ const WorkExperience: FC = () => {
               );
             })}
           </div>
-          <div className='my-8'>
+          <div className='my-8 w-5/6'>
             <h3 className='font-semibold text-lg text-gray-700'>
               {selectedOrg.name}{' '}
               <a
